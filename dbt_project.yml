@@ -41,3 +41,6 @@ models:
     src:
       +materialized: view
       +schema: src
+    intermediate:
+      +materialized: view
+      +schema: intermediate
