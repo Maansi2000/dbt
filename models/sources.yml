@@ -3,9 +3,9 @@ version: 2
 sources:
   - name: raw_files
     database: >
-      {%- if target.name == "default" -%}
+      {%- if target.name  == "dev" -%}
         airbnb_raw_for_dev
-      {%- elif target.name == "prod" -%}
+      {%- elif target.name  == "prod" -%}
         airbnb_raw
       {%- else -%}
         invalid_database
