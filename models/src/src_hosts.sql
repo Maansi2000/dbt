@@ -1,0 +1,1 @@
+select * from {{source('raw_files','raw_hosts')}}
